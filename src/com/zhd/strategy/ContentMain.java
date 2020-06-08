@@ -1,5 +1,7 @@
 package com.zhd.strategy;
 
+import java.util.HashMap;
+
 public class ContentMain {
 
     public static void main(String[] args) {
@@ -9,5 +11,8 @@ public class ContentMain {
 
         Content content1 = new Content("打八折+满300减50");
         System.out.println(content1.oper2(3302));
+
+
+//        new HashMap<>()
     }
 }

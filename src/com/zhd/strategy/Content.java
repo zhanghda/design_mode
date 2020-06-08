@@ -37,7 +37,6 @@ public class Content {
     //具体计算方法
     public double oper2(double money){
         double result = strategy.getResult(money);
-        double result1 = strategy2.getResult(result);
-        return result1;
+        return strategy2.getResult(result);
     }
 }
